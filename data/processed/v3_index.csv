@@ -1,0 +1,13 @@
+sheet,rows,cols,first_period,last_period,non_null_frac,csv
+Asking Rent Growth,150,83,2016 Q1,2036 Q2,0.9950200803212851,v3_asking_rent_growth.csv
+Effective Rent Growth,150,83,2016 Q1,2036 Q2,0.9950200803212851,v3_effective_rent_growth.csv
+Employment,150,81,2016 Q1,2035 Q4,0.9826337448559671,v3_employment.csv
+Construction Starts,150,62,2016 Q1,2031 Q1,0.6729032258064516,v3_construction_starts.csv
+Asset Value,150,62,2016 Q1,2031 Q1,0.9933333333333332,v3_asset_value.csv
+Median Household Income,150,80,2016 Q1,2035 Q4,1.0,v3_median_household_income.csv
+Population,150,61,2016 Q1,2031 Q1,1.0,v3_population.csv
+Market Sale Price Index,150,83,2016 Q1,2036 Q2,1.0,v3_market_sale_price_index.csv
+Market Asking Rent,150,83,2016 Q1,2036 Q2,1.0,v3_market_asking_rent.csv
+Market Effective Rent,150,83,2016 Q1,2036 Q2,1.0,v3_market_effective_rent.csv
+Inventory Units,150,83,2016 Q1,2036 Q2,1.0,v3_inventory_units.csv
+Units Per Person (UPP),150,62,2016 Q1,2031 Q1,0.9838709677419355,v3_units_per_person_upp.csv

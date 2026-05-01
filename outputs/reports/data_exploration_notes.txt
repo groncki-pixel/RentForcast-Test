@@ -1,0 +1,342 @@
+DATA EXPLORATION NOTES
+======================
+Generated during Step 0 exploration of all 3 raw Excel files.
+Files examined:
+  - data/raw/Full_Market_Leveler_Original.xlsx       (FILE 1, "orig")
+  - data/raw/Updated_Market_Leveler_v3.xlsx          (FILE 2, "v3", raw data refresh)
+  - data/raw/Full_Market_Leveler_May2026.xlsx        (FILE 3, "may26")
+
+
+==============================================================================
+1. FILE 1 — Full_Market_Leveler_Original.xlsx
+==============================================================================
+Built from Q2 2025 estimates. Austin = #1, Indianapolis = #33.
+
+SHEETS (15 total):
+
+Sheet "Summary Sheet": 153 rows x 48 cols
+  - Row 0: Section banners (Asking Rent, Effective Rent, Employment, Supply,
+    Units Per Person, Income, Population, Sale Price, then Check / PASTE HERE)
+  - Row 1: WEIGHTS row. Numerical values in specific columns. Mapping read
+    directly from this row:
+        col 7  -> 0.20  (Effective Rent group total weight, banner spans 5-8)
+        col 10 -> 0.10  (Employment group, banner spans 9-14)
+        col 13 -> 0.10  (Supply group)
+        col 21 -> 0.20  (Units Per Person group)
+        col 28 -> 0.10  (Income group)
+        col 31 -> 0.10  (Population group)
+        col 39 -> 0.20  (Sale Price group)
+        col 42 == 1.00  (sum check; matches 0.2*4 + 0.1*4 = 1.20 mismatch...
+        wait: weights 0.20+0.10+0.10+0.20+0.10+0.10+0.20 = 1.00 — Asking Rent
+        gets 0%)
+  - Row 2: Sub-column headers (40 sub-rankings):
+        cols 1-4   Asking Rent (Forward 1, 3, 5, 10)
+        cols 5-8   Effective Rent (Forward 1, 3, 5, 10)
+        cols 9-14  Employment (10 Yr Hist, 5 Yr Hist, Forward 1, 3, 5, 10)
+        cols 15-19 Supply (Historical 5, Forward 1, 3, 5, 10)
+        cols 20-22 UPP (Historical 10, Forward 5, Forward 10)
+        cols 23-26 Income (Forward 1, 3, 5, 10)
+        cols 27-32 Population (10 Yr Hist, 5 Yr Hist, Forward 1, 3, 5, 10)
+        cols 33-40 Sale Price (Hist 1, 3, 5, 10, Forward 1, 3, 5, 10)
+        col 41     Simple Average
+        col 42     Weighted Average
+        cols 45-47 sorted "Market / Weighted Avg / Rank"
+  - Rows 3-152: 150 markets, alphabetic. Each cell is an integer 1-150 (rank;
+    1 = best).
+  - Market names format: "Akron - OH" (no USA suffix, no parens).
+  - Final ranking visible in cols 46-47 (Inland Empire-CA #2 etc., Austin-TX #1).
+
+Sheet "Asking Rent": 456 rows x 42 cols.  STACKED 3 TABLES.
+  - Table 1 (rows 1-150, header at row 0):
+      Headers: Geography Name | 2025 Q2 | 2025 Q3 ... 2035 Q2  (41 quarter cols)
+      Values: $ levels (asking rent per unit). e.g. Akron $1,181/Q2 2025.
+      Market name format: "Akron - OH"
+  - Table 2 (rows 154-303, header at row 153):
+      Same headers, but values are indexed % change rebased to 1.00 at 2025 Q2.
+      Market name format: "Akron - OH"
+  - Table 3 (rows 306-455):
+      4-column summary (1, 3, 5, 10 yr aggregate growth) — used in ranking.
+
+Sheet "Effective Rent-Forward": 456 rows x 46 cols.  STACKED.
+  - Has EXTRA leading columns: Property Class Name, Slice, As Of, Geography
+    Name, Concept Name. Geography Name is in COL 3 (NOT col 0).
+  - Table 1 (rows 1-150): Effective Rent $/UNIT levels, As Of 2025 Q2.
+      e.g. Akron $1,174/Q2 2025.
+  - Table 2 (rows 154-303): rebased % change indexed to 1.00 at 2025 Q2,
+    different "As Of" tag of 2024 Q3 (still anchored at 2025 Q2 = 1.00).
+  - Table 3 (rows 306+): aggregated growth rates.
+  - Market format: "Akron - OH USA" (note: space-USA suffix).
+
+Sheet "Effective Rent Historical": 152 rows x 8 cols.
+  - Two side-by-side mini-tables: "Market | 5 Yr Growth | Rank"
+    and "Market | 10 Yr Growth | 10 Yr Rank"
+  - Market name: "Akron - OH"
+  - These are the inputs that populate certain Summary cols.
+
+Sheet "Historical Employment": 153 rows x 8 cols.
+  - Two side-by-side: "Market | 5 Yr Growth | 5 Yr Rank" & "Market | 10 Yr
+    Growth | 10 Yr Rank". Market: "Akron - OH". Header in row 2.
+
+Sheet "Forward Employment": 457 rows x 84 cols.  STACKED 3 TABLES.
+  - Table 1 (rows 1-150): Employment levels (e.g. Akron 339,633 jobs Q2 2025).
+  - Table 2 (rows 154-303): indexed % change.
+  - Table 3 (rows 307+): 1/3/5/10-year aggregate growth.
+  - Market format: "Akron - OH (USA)" (parenthetical).
+
+Sheet "Supply Forward": 456 rows x 42 cols. STACKED 3 TABLES.
+  - Table 1 (rows 1-150): inventory unit COUNTS (e.g. Akron 38,114 units).
+  - Table 2 (rows 154-303): indexed % change.
+  - Table 3 (rows 306+): 1/3/5/10 yr growth.
+  - Market: "Akron - OH".
+
+Sheet "Supply Historical": 457 rows x 25 cols. STACKED.
+  - Headers from 2020 Q2 onwards. Has Property Class/Slice/As Of/Geography
+    Name/Concept Name extra cols. Market: "Akron - OH USA".
+
+Sheet "UPP Historical": 768 rows x 83 cols. HEAVILY STACKED — FIVE sections.
+  - Row 0: "Inventory" banner; rows 2-152: Inventory levels.
+  - Row 154: "Population" banner; rows 156-306: Population levels.
+  - Row 308: "Units PP" banner; rows 310 onwards: UPP levels.
+  - Additional sub-tables (% change / aggregates) at rows 464+, 617+.
+
+Sheet "Forward UPP": 762 rows x 42 cols. STACKED.
+  - Multiple sections (Inventory, Population, UPP) each w/ levels & % change.
+  - Final block at row 611+ has aggregate UPP rankings (1/5/10 yr).
+
+Sheet "Income Growth": 456 rows x 42 cols. STACKED 3 TABLES.
+  - Table 1 (rows 1-150): Income $/year levels (Akron $70,075).
+  - Table 2 (rows 154-303): indexed % change.
+  - Table 3 (rows 306+): aggregates.
+  - Market: "Akron - OH USA".
+
+Sheet "Population Growth Forward": 456 rows x 46 cols. STACKED.
+  - Table 1 (rows 1-150): population counts (extra Property/Slice/AsOf cols).
+    Geography in col 3.
+  - Table 2 (rows 154-303): indexed % change. Note: Geography format becomes
+    "Akron - OH (USA)" in the second block.
+  - Table 3: aggregates.
+
+Sheet "Historical Population Growth": 152 rows x 9 cols.
+  - Two side-by-side mini-tables. Headers at row 1.
+
+Sheet "Forward Sale Price": 456 rows x 43 cols. STACKED.
+  - Table 1 (rows 1-150): sale price index (e.g. Akron 222.26 Q2 2025).
+  - Table 2 (rows 154-303): indexed % change.
+  - Table 3 (rows 306+): aggregates.
+  - Market: "Akron - OH (USA)".
+
+Sheet "Historical Sale Price": 456 rows x 42 cols. STACKED.
+  - Table 1 (rows 1-150): sale price index from 2015 Q1.
+  - Table 2 (rows 154-303): indexed % change.
+  - Table 3 (rows 306+): aggregates.
+  - Market: "Akron - OH (USA)".
+
+
+==============================================================================
+2. FILE 2 — Updated_Market_Leveler_v3.xlsx (raw data refresh, Apr 2026)
+==============================================================================
+Per README:
+  Data as of: Apr 20, 2026 | Periods: 2016 Q1 — 2031 Q1 | Markets: 150
+  README says "Poughkeepsie - NY in FML but not in MSA Export"
+  README says Income/Population/UPP are MISSING DATA (yellow = needs fill)
+
+VERIFIED IN EXPLORATION:
+  Poughkeepsie IS present in every data sheet (incl. Effective Rent Growth and
+  Population). 150 markets in every sheet. README claim is incorrect. The
+  Income/Population/UPP sheets DO have non-null numeric values (Income avg
+  100% non-null, Population 100% non-null, UPP ~98% non-null) — likely the
+  "needs fill" note refers to whether the values are direct vs. proxied from
+  another source, not to actual cell emptiness.
+
+SHEETS (12 data sheets + README):
+
+  README                  18 x 3
+  Asking Rent Growth      151 x 84  (2016 Q1 – 2036 Q2 quarter cols, GROWTH RATES)
+  Effective Rent Growth   151 x 84  (2016 Q1 – 2036 Q2, GROWTH RATES, fractions)
+  Employment              151 x 82  (2016 Q1 – 2035 Q4, LEVELS jobs)
+  Construction Starts     151 x 63  (2016 Q1 – 2031 Q1, unit counts; 67% non-null
+                                     — many zeros for small markets)
+  Asset Value             151 x 63  (2016 Q1 – 2031 Q1, $ levels)
+  Median Household Income 151 x 81  (2016 Q1 – 2035 Q4, $)
+  Population              151 x 62  (2016 Q1 – 2030 Q4, person counts)
+  Market Sale Price Index 151 x 84  (2016 Q1 – 2036 Q2, INDEX values 100-300ish)
+  Market Asking Rent      151 x 84  ($/SQFT — values like $0.88, $0.93)
+  Market Effective Rent   151 x 84  ($/SQFT — values like $0.93, $0.94)
+  Inventory Units         151 x 84  (unit counts, 2016 Q1 – 2036 Q2)
+  Units Per Person (UPP)  151 x 63  (decimal ratio, 2016 Q1 – 2031 Q1)
+
+ALL data sheets in file 2 are FLAT (single table, market in col 0, quarters
+in cols 1+, header in row 0).
+Market name format: "Akron - OH" (no USA suffix).
+
+
+==============================================================================
+3. FILE 3 — Full_Market_Leveler_May2026.xlsx
+==============================================================================
+Same model, refreshed with May 2026 data. Austin = #32, Indianapolis = #6.
+
+SHEETS (15 total): same names as file 1, same layout EXCEPT:
+
+Summary Sheet: 153 rows x 53 cols
+  - SAME row 0 / row 1 / row 2 layout as orig.
+  - Has EXTRA right-side block in cols 49-52: "2025 Analysis" with the Original
+    file's rankings duplicated for reference. So both new and old rankings can
+    be read from this single sheet.
+  - SAME WEIGHTS as orig (verified row 1 numeric positions identical).
+  - Final ranking col 47 (e.g. Inland Empire-CA #1, Las Vegas #2).
+
+Effective Rent-Forward: 456 rows x 43 cols. STACKED.
+  - DOES NOT have Property Class Name / Slice / As Of / Concept Name leading
+    columns like the original — starts directly with Geography Name in col 0,
+    Concept Name in col 1, then quarter columns from "2026 Q2 EST".
+  - Table 1 (rows 1-150): Effective Rent per SQFT (~$1.33 etc) — NOT $/unit
+    like the original. UNITS DIFFER from original Table 1; cannot be compared
+    directly.
+  - Table 2 (rows 154-303): indexed % change rebased to 1.00 at 2026 Q2.
+    Comparable to file 1 Table 2 (both indexed % change).
+  - Market: "Akron - OH USA".
+
+Other forward sheets (Asking Rent, Supply Forward, Income Growth, Forward Sale
+Price, Forward Employment, Forward UPP): same stacked structure as file 1,
+but estimate quarter is 2026 Q2 instead of 2025 Q2. Layouts and column
+counts are slightly different in places (e.g. Income Growth has 40 cols
+vs 42; Forward Employment has 42 vs 84 in original — the original packed
+extra summary columns inline, May2026 separates them).
+
+Historical sheets (Effective Rent Historical, Historical Employment,
+Historical Population Growth) in file 3 have a DIFFERENT structure than
+file 1: in file 3 they are full quarterly time series (607 x 42, header in
+row 0, market in col 0, 2016 Q1 – 2036 Q2 range), much like the file 2
+sheets. In file 1 these same-named sheets were small 152×8 mini-tables with
+just 5/10-yr growth ranks.
+
+Historical Sale Price file 3: 912 rows x 43 cols. STACKED ~6 sections.
+
+Population Growth Forward file 3 has only 21 cols instead of 46/40 — likely
+stops earlier or has fewer sub-blocks.
+
+
+==============================================================================
+4. MARKET NAME NORMALIZATION
+==============================================================================
+Within and across files, market identifiers are inconsistent:
+  - "Akron - OH"          (Summary Sheet, Asking Rent levels, file 2 sheets)
+  - "Akron - OH USA"      (Effective Rent-Forward leading rows, Income, etc.)
+  - "Akron - OH (USA)"    (Forward Sale Price, Forward Employment, Forward UPP,
+                            Population Growth Forward Table 2)
+
+Normalization rule we will apply: strip trailing " USA" or " (USA)" / "(USA)";
+trim whitespace; collapse internal double spaces. Result canonical form:
+"Akron - OH".
+
+After normalization: 150 markets in file 1, 150 in file 2, 150 in file 3.
+Set difference is empty (all three files cover the same 150 markets).
+Poughkeepsie - NY IS PRESENT in all three files; the README in file 2 is
+incorrect (or out of date).
+
+
+==============================================================================
+5. UNIT MISMATCHES & WHAT IS / IS NOT COMPARABLE
+==============================================================================
+  Effective Rent levels (Table 1):
+    file 1 = $/unit (e.g. $1,174)
+    file 3 = $/SQFT  (e.g. $1.33)
+    NOT COMPARABLE. Use Table 2 (indexed % change) for cross-vintage analysis.
+
+  Effective Rent Growth (file 2):
+    Quarterly growth rate fraction (~0.005 per quarter typical). Comparable
+    to itself; not directly to the indexed levels in files 1/3 without
+    transformation.
+
+  Asking Rent levels:
+    file 1 Table 1 = $/unit
+    file 3 Table 1 = $/unit (also unit-level, NOT $/sqft) — checked: Akron
+       $1,240/Q2 2026 vs $1,181/Q2 2025; both unit-level.
+    file 2 "Market Asking Rent" = $/SQFT (Akron $0.88 etc.)
+    Tables 2 in files 1 & 3 are comparable indexed % change.
+
+  Sale Price:
+    file 1 Forward Sale Price Table 1 = an INDEX (e.g. Akron 222.26)
+    file 3 Forward Sale Price Table 1 = INDEX same scale
+    file 2 Market Sale Price Index = INDEX same scale
+    These appear directly comparable.
+
+  Employment & Supply (Inventory) & Population:
+    All files report LEVELS in equivalent units (jobs, units, persons).
+
+  Income:
+    file 1 / file 3 Income Growth Table 1 = $/year per household
+    file 2 Median Household Income = $/year per household
+    Comparable.
+
+  UPP:
+    file 1 / file 3 derive UPP = inventory_units / population
+    file 2 has UPP directly. Numerically aligned (~0.04-0.05).
+
+
+==============================================================================
+6. WHAT WE HAVE / WHAT WE'RE MISSING
+==============================================================================
+HAVE:
+  - Two full Summary Sheet rankings (orig vs may26) for all 40 sub-rankings,
+    SimpleAvg, WeightedAvg, FinalRank for all 150 markets.
+  - Quarterly forward forecasts (2025 Q2 baseline) for AskingRent, EffectiveRent,
+    Employment, Supply, Income, Population, SalePrice, UPP from file 1.
+  - Quarterly forward forecasts (2026 Q2 baseline) for same series from file 3.
+  - Historical actuals (2016 Q1 onward) in file 2 for AskingRentGrowth,
+    EffectiveRentGrowth, Employment, Construction Starts, Asset Value,
+    Income, Population, Sale Price Index, Asking Rent ($/sqft),
+    Effective Rent ($/sqft), Inventory, UPP.
+  - Some historical actuals also in file 3's "Historical *" sheets (607 rows
+    of quarterly data going back to 2016).
+
+MISSING / WEAK:
+  - File 1 originally tagged Income/Population/UPP as "needs manual fill" but
+    actually has data — note in discrepancy log.
+  - Construction Starts has many zeros (small markets); only 67% non-null.
+  - File 2 Population stops at 2030 Q4 (62 cols vs 84); fine for backtest.
+  - Asking Rent in file 1 Summary has weight 0% (per row 1) — i.e. tracked
+    but not weighted, despite being one of the 8 categories.
+  - The README claim about Poughkeepsie missing is WRONG.
+
+POTENTIAL DATA ISSUES TO HANDLE CAREFULLY:
+  - The leading columns in file 1 forward sheets vary: some sheets have
+    Property Class / Slice / As Of / Geography / Concept (5 leading cols),
+    others have only Geography. Need to detect Geography column dynamically
+    rather than assuming col 0.
+  - The May2026 Effective Rent-Forward sheet does NOT have those extra leading
+    columns (starts at Geography Name in col 0). Layouts differ.
+  - "As Of" timestamps in Effective Rent Forward Table 2 differ: orig says
+    2024 Q3, may26 says 2025 Q3 (or similar) — but Table 2 is rebased so the
+    "As Of" appears decorative; values still anchor to estimate quarter = 1.00.
+  - "Inland Empire - CA" name has internal space variations? Verified consistent.
+
+==============================================================================
+7. DATE COVERAGE SUMMARY
+==============================================================================
+  file 1 forward sheets: 2025 Q2 (estimate) -> 2035 Q2 (10-yr horizon)
+  file 1 Effective Rent Historical: 5- & 10-yr growth point summaries (no
+    quarterly time series in this sheet)
+  file 1 Historical Sale Price: 2015 Q1 -> 2025 Q1 (full quarterly)
+  file 2: 2016 Q1 -> 2036 Q2 for rent / employment / income / inventory; some
+    sheets only run to 2031 Q1 (Construction Starts, Asset Value, Population,
+    UPP)
+  file 3 forward sheets: 2026 Q2 (estimate) -> 2036 Q2
+  file 3 historical sheets (Effective Rent Historical, Historical Employment,
+    Historical Population): 2016 Q1 -> 2036 Q2 (so they actually include
+    forward periods too — they're combined hist+forward time series).
+
+==============================================================================
+8. QUESTIONS / CONCERNS FOR ANALYSIS
+==============================================================================
+  - For estimate-vs-actual: the file 1 estimate quarter is 2025 Q2; file 2
+    has actuals through ~2026 Q1. So we have 3 quarters of actuals against
+    file 1 forecasts (2025 Q3, Q4, 2026 Q1). Limited but workable.
+  - File 2 is the cleanest source of actuals; should be primary for hist data.
+  - File 3 historical sheets blend hist + forward. Distinguish carefully.
+  - Effective rent levels CANNOT be compared cross-file without unit
+    conversion. We will use Table 2 (% change) exclusively for cross-vintage.
+  - Asking Rent in summary has 0% weight in the model. We still extract its
+    sub-rankings for diagnostics but don't include it in weighted-avg checks.
+  - For the rent model (script 6) we have full quarterly Effective Rent Growth
+    rates 2016-2025 for training/testing.
