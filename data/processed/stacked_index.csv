@@ -1,0 +1,62 @@
+file,sheet,block,rows,cols,first_col,last_col,non_null_frac,csv
+orig,Asking Rent,levels,150,41,2025 Q2,2035 Q2,1.0,orig_asking_rent_levels.csv
+orig,Asking Rent,pct_change,150,41,2025 Q2,2035 Q2,1.0,orig_asking_rent_pct_change.csv
+orig,Asking Rent,aggregate,1,8,1,10 Year Rank,1.0,orig_asking_rent_aggregate.csv
+orig,Effective Rent-Forward,levels,150,41,2025 Q2 EST,2035 Q2,1.0,orig_effective_rent_forward_levels.csv
+orig,Effective Rent-Forward,pct_change,150,40,2025 Q2 EST,2035 Q1,1.0,orig_effective_rent_forward_pct_change.csv
+orig,Effective Rent-Forward,aggregate,1,5,Index,10,1.0,orig_effective_rent_forward_aggregate.csv
+orig,Forward Employment,levels,150,46,2025 Q2 EST,2025 Q2,0.9782608695652174,orig_forward_employment_levels.csv
+orig,Forward Employment,pct_change,150,41,2025 Q2 EST,2035 Q2,0.975609756097561,orig_forward_employment_pct_change.csv
+orig,Forward Employment,aggregate,150,9,1,10 Year Growth,0.8888888888888888,orig_forward_employment_aggregate.csv
+orig,Supply Forward,levels,150,41,2025 Q2 EST,2035 Q2,1.0,orig_supply_forward_levels.csv
+orig,Supply Forward,pct_change,150,41,2025 Q2 EST,2035 Q2,1.0,orig_supply_forward_pct_change.csv
+orig,Supply Forward,aggregate,1,8,1,10 Yr. Ranking,1.0,orig_supply_forward_aggregate.csv
+orig,Income Growth,levels,150,41,2025 Q2 EST,2035 Q2,1.0,orig_income_growth_levels.csv
+orig,Income Growth,pct_change,150,40,2025 Q2 EST,2035 Q1,1.0,orig_income_growth_pct_change.csv
+orig,Income Growth,aggregate,1,8,1,10 Year Ranking,1.0,orig_income_growth_aggregate.csv
+orig,Population Growth Forward,levels,150,41,2025 Q2 EST,2035 Q2,1.0,orig_population_growth_forward_levels.csv
+orig,Population Growth Forward,pct_change,150,40,2025 Q2 EST,2035 Q1,1.0,orig_population_growth_forward_pct_change.csv
+orig,Population Growth Forward,aggregate,1,8,1,10 Year Analytics,1.0,orig_population_growth_forward_aggregate.csv
+orig,Forward Sale Price,levels,150,41,2025 Q2 EST,2035 Q2,1.0,orig_forward_sale_price_levels.csv
+orig,Forward Sale Price,pct_change,150,41,2025 Q2 EST,2035 Q2,0.975609756097561,orig_forward_sale_price_pct_change.csv
+orig,Forward Sale Price,aggregate,1,8,1,10 Yr. Ranking,1.0,orig_forward_sale_price_aggregate.csv
+orig,Forward UPP,levels,150,41,2025 Q2 EST,2035 Q2,1.0,orig_forward_upp_levels.csv
+orig,Forward UPP,pct_change,150,41,2025 Q2 EST,2035 Q2,1.0,orig_forward_upp_pct_change.csv
+orig,Forward UPP,aggregate,150,41,2025 Q2 EST,2035 Q2,1.0,orig_forward_upp_aggregate.csv
+orig,Historical Sale Price,levels,150,41,2015 Q1,2025 Q1,1.0,orig_historical_sale_price_levels.csv
+orig,Historical Sale Price,pct_change,150,41,2015 Q1,2025 Q1,0.975609756097561,orig_historical_sale_price_pct_change.csv
+orig,Historical Sale Price,aggregate,1,8,1,10 Yr. Ranking,1.0,orig_historical_sale_price_aggregate.csv
+orig,Supply Historical,levels,150,20,2020 Q2,2025 Q1,1.0,orig_supply_historical_levels.csv
+orig,Supply Historical,pct_change,150,20,2020 Q2,2025 Q1,1.0,orig_supply_historical_pct_change.csv
+orig,Supply Historical,aggregate,150,3,Inv.,Geography Name,0.6666666666666666,orig_supply_historical_aggregate.csv
+orig,UPP Historical,levels,150,82,2015 Q2,2035 Q2,1.0,orig_upp_historical_levels.csv
+orig,UPP Historical,pct_change,150,40,2015 Q2,2025 Q1,1.0,orig_upp_historical_pct_change.csv
+orig,UPP Historical,extra2,150,3,Geography Name,Rank,0.6666666666666666,orig_upp_historical_extra2.csv
+may26,Asking Rent,levels,150,41,2026 Q2,2036 Q2,1.0,may26_asking_rent_levels.csv
+may26,Asking Rent,pct_change,150,41,2026 Q2,2036 Q2,1.0,may26_asking_rent_pct_change.csv
+may26,Asking Rent,aggregate,1,8,1,10 Year Rank,1.0,may26_asking_rent_aggregate.csv
+may26,Effective Rent-Forward,levels,150,41,2026 Q2 EST,2036 Q2,1.0,may26_effective_rent_forward_levels.csv
+may26,Effective Rent-Forward,pct_change,150,40,2026 Q2 EST,2036 Q1,1.0,may26_effective_rent_forward_pct_change.csv
+may26,Effective Rent-Forward,aggregate,1,5,Index,10,1.0,may26_effective_rent_forward_aggregate.csv
+may26,Forward Employment,levels,150,39,2026 Q2 EST,2035 Q4,0.9965811965811966,may26_forward_employment_levels.csv
+may26,Forward Employment,pct_change,150,39,2026 Q2 EST,2035 Q4,0.9933333333333332,may26_forward_employment_pct_change.csv
+may26,Forward Employment,aggregate,150,9,1,10 Year Growth,0.882962962962963,may26_forward_employment_aggregate.csv
+may26,Supply Forward,levels,150,41,2026 Q2 EST,2036 Q2,1.0,may26_supply_forward_levels.csv
+may26,Supply Forward,pct_change,150,41,2026 Q2 EST,2036 Q2,1.0,may26_supply_forward_pct_change.csv
+may26,Supply Forward,aggregate,1,8,1,10 Yr. Ranking,1.0,may26_supply_forward_aggregate.csv
+may26,Income Growth,levels,150,39,2026 Q2 EST,2035 Q4,1.0,may26_income_growth_levels.csv
+may26,Income Growth,pct_change,150,39,2026 Q2 EST,2035 Q4,1.0,may26_income_growth_pct_change.csv
+may26,Income Growth,aggregate,1,8,1,10 Year Ranking,1.0,may26_income_growth_aggregate.csv
+may26,Population Growth Forward,levels,150,20,2026 Q2 EST,2031 Q1,1.0,may26_population_growth_forward_levels.csv
+may26,Population Growth Forward,pct_change,150,20,2026 Q2 EST,2031 Q1,1.0,may26_population_growth_forward_pct_change.csv
+may26,Population Growth Forward,aggregate,1,8,1,10 Year Analytics,1.0,may26_population_growth_forward_aggregate.csv
+may26,Forward Sale Price,levels,150,41,2026 Q2 EST,2036 Q2,1.0,may26_forward_sale_price_levels.csv
+may26,Forward Sale Price,pct_change,150,41,2026 Q2 EST,2036 Q2,1.0,may26_forward_sale_price_pct_change.csv
+may26,Forward Sale Price,aggregate,1,8,1,10 Yr. Ranking,1.0,may26_forward_sale_price_aggregate.csv
+may26,Forward UPP,levels,150,41,2026 Q2 EST,2036 Q2,1.0,may26_forward_upp_levels.csv
+may26,Forward UPP,pct_change,150,21,2026 Q2 EST,0,1.0,may26_forward_upp_pct_change.csv
+may26,Forward UPP,aggregate,150,21,2026 Q2 EST,0,0.9523809523809523,may26_forward_upp_aggregate.csv
+may26,Historical Sale Price,levels,150,41,2016 Q1,2026 Q1,1.0,may26_historical_sale_price_levels.csv
+may26,Supply Historical,levels,150,41,2016 Q1,2026 Q1,1.0,may26_supply_historical_levels.csv
+may26,UPP Historical,levels,150,41,2016 Q1,2026 Q1,1.0,may26_upp_historical_levels.csv
+may26,UPP Historical,pct_change,150,41,2016 Q1,2026 Q1,0.975609756097561,may26_upp_historical_pct_change.csv

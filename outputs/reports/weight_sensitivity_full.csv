@@ -1,0 +1,751 @@
+Scheme,Market,WeightedAvg,Rank
+baseline,Inland Empire - CA,19.65,1.0
+baseline,Fresno - CA,24.266666666666666,2.0
+baseline,Las Vegas - NV,26.958333333333336,3.0
+baseline,Stockton - CA,28.033333333333335,4.0
+baseline,Indianapolis - IN,31.333333333333336,5.0
+baseline,Sacramento - CA,32.225,6.0
+baseline,Modesto - CA,33.43333333333334,7.0
+baseline,Salem - OR,35.25833333333333,8.0
+baseline,Phoenix - AZ,35.775,9.0
+baseline,Springfield - MA,36.16666666666667,10.0
+baseline,Salinas - CA,36.46666666666667,11.0
+baseline,Bakersfield - CA,39.05,12.0
+baseline,Reno - NV,39.06666666666667,13.0
+baseline,Palm Beach - FL,39.400000000000006,14.0
+baseline,Honolulu - HI,40.70833333333333,15.0
+baseline,East Bay - CA,42.11666666666667,16.0
+baseline,Memphis - TN,42.425000000000004,17.0
+baseline,Richmond - VA,42.50833333333333,18.0
+baseline,Visalia - CA,42.76666666666667,19.0
+baseline,Manchester - NH,43.2,20.0
+baseline,Columbus - OH,43.741666666666674,21.0
+baseline,Norfolk - VA,44.72500000000001,22.0
+baseline,Harrisburg - PA,45.225,23.0
+baseline,Cincinnati - OH,45.25,24.0
+baseline,Vallejo-Fairfield - CA,45.925,25.0
+baseline,Reading - PA,46.0,26.0
+baseline,Spokane - WA,46.558333333333344,27.0
+baseline,Worcester - MA,47.225,28.0
+baseline,Port St. Lucie - FL,47.50833333333334,29.0
+baseline,Kansas City - MO,47.650000000000006,30.0
+baseline,Springfield - MO,48.25,31.0
+baseline,Miami - FL,48.891666666666666,32.0
+baseline,Portland - ME,49.10000000000001,33.0
+baseline,Santa Barbara - CA,49.233333333333334,34.0
+baseline,Ventura - CA,50.025000000000006,35.0
+baseline,San Francisco - CA,50.18333333333334,36.0
+baseline,Boise - ID,50.224999999999994,37.0
+baseline,Lehigh Valley - PA,50.26666666666667,38.0
+baseline,Lexington - KY,50.59166666666667,39.0
+baseline,Dallas-Fort Worth - TX,50.80833333333333,40.0
+baseline,Youngstown - OH,50.925000000000004,41.0
+baseline,San Jose - CA,51.125,42.0
+baseline,Salisbury - MD,51.13333333333334,43.0
+baseline,Fayetteville - NC,51.31666666666667,44.0
+baseline,Seattle - WA,51.34166666666666,45.0
+baseline,Detroit - MI,51.525,46.0
+baseline,Anchorage - AK,51.85000000000001,47.0
+baseline,Tulsa - OK,51.983333333333334,48.0
+baseline,Lansing - MI,52.141666666666666,49.0
+baseline,Columbia - SC,52.733333333333334,50.0
+baseline,Winston-Salem - NC,52.78333333333334,51.0
+baseline,Gulfport-Biloxi-Pascagoula - MS,53.125,52.0
+baseline,Myrtle Beach - SC,53.97500000000001,53.0
+baseline,Grand Rapids - MI,54.81666666666667,54.0
+baseline,Providence - RI,54.983333333333334,55.0
+baseline,Orange County - CA,55.266666666666666,56.0
+baseline,Des Moines - IA,55.34166666666667,57.0
+baseline,Lancaster - PA,55.575,58.0
+baseline,Greenville - SC,55.94166666666667,59.0
+baseline,Orlando - FL,57.224999999999994,60.0
+baseline,Northwest Arkansas - AR,57.466666666666676,61.0
+baseline,Fort Wayne - IN,57.59166666666667,62.0
+baseline,Knoxville - TN,57.666666666666664,63.0
+baseline,Atlanta - GA,58.49166666666667,64.0
+baseline,Houston - TX,58.525000000000006,65.0
+baseline,Charleston - SC,58.900000000000006,66.0
+baseline,Albany - NY,59.13333333333334,67.0
+baseline,York - PA,59.15833333333334,68.0
+baseline,El Paso - TX,59.56666666666667,69.0
+baseline,Cleveland - OH,59.733333333333334,70.0
+baseline,Oklahoma City - OK,59.800000000000004,71.0
+baseline,Tallahassee - FL,59.900000000000006,72.0
+baseline,Trenton - NJ,60.01666666666668,73.0
+baseline,Daytona Beach - FL,60.675000000000004,74.0
+baseline,Jacksonville - FL,60.79166666666667,75.0
+baseline,Canton - OH,60.875,76.0
+baseline,Raleigh - NC,60.89166666666667,77.0
+baseline,Lakeland - FL,61.73333333333334,78.0
+baseline,Naples - FL,62.09166666666667,79.0
+baseline,Montgomery - AL,62.125,80.0
+baseline,Rochester - NY,62.60833333333334,81.0
+baseline,Madison - WI,62.88333333333334,82.0
+baseline,New Orleans - LA,62.891666666666666,83.0
+baseline,San Diego - CA,63.13333333333334,84.0
+baseline,Scranton - PA,63.525,85.0
+baseline,Long Island - NY,63.69166666666667,86.0
+baseline,Buffalo - NY,63.775,87.0
+baseline,Little Rock - AR,64.45833333333334,88.0
+baseline,San Antonio - TX,64.96666666666668,89.0
+baseline,Wichita - KS,65.13333333333333,90.0
+baseline,Chicago - IL,65.60833333333335,91.0
+baseline,Melbourne - FL,65.66666666666667,92.0
+baseline,Milwaukee - WI,65.74166666666666,93.0
+baseline,Louisville - KY,65.85000000000001,94.0
+baseline,Akron - OH,65.95,95.0
+baseline,Chattanooga - TN,66.14166666666668,96.0
+baseline,Omaha - NE,66.44166666666666,97.0
+baseline,Hartford - CT,66.70833333333334,98.0
+baseline,Greensboro - NC,66.775,99.0
+baseline,Austin - TX,66.875,100.0
+baseline,Baltimore - MD,67.225,101.0
+baseline,Dayton - OH,67.31666666666666,102.0
+baseline,Pensacola - FL,67.78333333333333,103.0
+baseline,Ocala - FL,68.01666666666668,104.0
+baseline,Tucson - AZ,68.55000000000001,105.0
+baseline,Fort Lauderdale - FL,69.2,106.0
+baseline,Birmingham - AL,69.28333333333335,107.0
+baseline,Boston - MA,70.06666666666668,108.0
+baseline,Toledo - OH,70.225,109.0
+baseline,Mobile - AL,70.26666666666668,110.0
+baseline,Santa Rosa - CA,70.75,111.0
+baseline,New York - NY,71.19166666666668,112.0
+baseline,New Haven - CT,71.39166666666667,113.0
+baseline,Flint - MI,71.60833333333333,114.0
+baseline,Salt Lake City - UT,71.80833333333334,115.0
+baseline,Killeen - TX,72.03333333333333,116.0
+baseline,Augusta - GA,72.08333333333334,117.0
+baseline,Provo - UT,72.25833333333334,118.0
+baseline,Portland - OR,72.48333333333333,119.0
+baseline,Brownsville-Harlingen - TX,72.60000000000001,120.0
+baseline,Charlotte - NC,72.80833333333334,121.0
+baseline,Syracuse - NY,73.375,122.0
+baseline,McAllen - TX,73.42500000000001,123.0
+baseline,Denver - CO,73.45833333333333,124.0
+baseline,Albuquerque - NM,74.30000000000001,125.0
+baseline,Savannah - GA,74.54166666666667,126.0
+baseline,Fort Myers - FL,74.61666666666667,127.0
+baseline,Asheville - NC,75.24166666666667,128.0
+baseline,Durham - NC,75.43333333333334,129.0
+baseline,Saint Louis - MO,75.95,130.0
+baseline,Sarasota - FL,76.09166666666667,131.0
+baseline,Philadelphia - PA,76.60833333333335,132.0
+baseline,Tampa - FL,76.93333333333334,133.0
+baseline,Nashville - TN,77.69166666666668,134.0
+baseline,Huntsville - AL,77.96666666666667,135.0
+baseline,Ogden - UT,78.21666666666667,136.0
+baseline,Jackson - MS,79.125,137.0
+baseline,Washington - DC,79.94166666666668,138.0
+baseline,Colorado Springs - CO,80.04166666666667,139.0
+baseline,Minneapolis - MN,80.65833333333333,140.0
+baseline,Shreveport - LA,81.3,141.0
+baseline,Baton Rouge - LA,83.85000000000001,142.0
+baseline,Beaumont - TX,84.9,143.0
+baseline,Northern New Jersey - NJ,85.96666666666667,144.0
+baseline,Los Angeles - CA,87.76666666666667,145.0
+baseline,Lafayette - LA,88.18333333333332,146.0
+baseline,Corpus Christi - TX,91.31666666666666,147.0
+baseline,Pittsburgh - PA,96.75,148.0
+baseline,Stamford - CT,104.30833333333334,149.0
+baseline,Poughkeepsie - NY,,
+equal,Fresno - CA,33.764583333333334,1.0
+equal,Stockton - CA,34.42916666666667,2.0
+equal,Inland Empire - CA,35.59375,3.0
+equal,Salinas - CA,38.41458333333333,4.0
+equal,Sacramento - CA,39.265625,5.0
+equal,Modesto - CA,39.36666666666667,6.0
+equal,Las Vegas - NV,40.276041666666664,7.0
+equal,East Bay - CA,43.53958333333333,8.0
+equal,Indianapolis - IN,46.87916666666667,9.0
+equal,Honolulu - HI,47.05104166666666,10.0
+equal,Salem - OR,47.25729166666667,11.0
+equal,Visalia - CA,48.27708333333333,12.0
+equal,Bakersfield - CA,48.6625,13.0
+equal,San Francisco - CA,50.38541666666667,14.0
+equal,Reno - NV,50.91458333333333,15.0
+equal,Vallejo-Fairfield - CA,51.328125,16.0
+equal,Phoenix - AZ,51.728125,17.0
+equal,Palm Beach - FL,53.099999999999994,18.0
+equal,Santa Barbara - CA,53.197916666666664,19.0
+equal,San Jose - CA,53.915625,20.0
+equal,Manchester - NH,56.24375,21.0
+equal,Springfield - MA,57.545833333333334,22.0
+equal,Orange County - CA,58.35208333333334,23.0
+equal,Memphis - TN,58.871874999999996,24.0
+equal,Tulsa - OK,59.74166666666667,25.0
+equal,Seattle - WA,59.89895833333333,26.0
+equal,Miami - FL,60.061458333333334,27.0
+equal,Richmond - VA,61.219791666666666,28.0
+equal,Ventura - CA,62.484375,29.0
+equal,Reading - PA,62.6625,30.0
+equal,Harrisburg - PA,62.715624999999996,31.0
+equal,Boise - ID,63.54687499999999,32.0
+equal,Norfolk - VA,64.134375,33.0
+equal,Dallas-Fort Worth - TX,65.46979166666667,34.0
+equal,El Paso - TX,65.53333333333333,35.0
+equal,Cincinnati - OH,66.50625,36.0
+equal,Lancaster - PA,66.728125,37.0
+equal,Youngstown - OH,66.859375,38.0
+equal,Lansing - MI,67.58645833333333,39.0
+equal,Detroit - MI,67.603125,40.0
+equal,Springfield - MO,67.63125,41.0
+equal,Northwest Arkansas - AR,67.65833333333333,42.0
+equal,Houston - TX,68.12187499999999,43.0
+equal,Portland - ME,68.15625,44.0
+equal,Kansas City - MO,69.05625,45.0
+equal,Spokane - WA,69.50729166666667,46.0
+equal,Long Island - NY,69.56145833333333,47.0
+equal,Lexington - KY,70.06770833333333,48.0
+equal,Port St. Lucie - FL,70.09479166666668,49.0
+equal,Salisbury - MD,70.10416666666666,50.0
+equal,Oklahoma City - OK,70.21875,51.0
+equal,Columbus - OH,70.22395833333334,52.0
+equal,Worcester - MA,70.390625,53.0
+equal,Albany - NY,70.56041666666667,54.0
+equal,Lehigh Valley - PA,71.38958333333333,55.0
+equal,Gulfport-Biloxi-Pascagoula - MS,71.428125,56.0
+equal,Grand Rapids - MI,71.61458333333333,57.0
+equal,Naples - FL,72.30520833333333,58.0
+equal,Providence - RI,73.02916666666667,59.0
+equal,Wichita - KS,73.28541666666666,60.0
+equal,New Orleans - LA,73.45520833333333,61.0
+equal,Myrtle Beach - SC,73.521875,62.0
+equal,Rochester - NY,73.93229166666666,63.0
+equal,Anchorage - AK,74.5,64.0
+equal,San Diego - CA,74.55416666666666,65.0
+equal,Buffalo - NY,74.79062499999999,66.0
+equal,Fayetteville - NC,75.09583333333333,67.0
+equal,New York - NY,75.50520833333334,68.0
+equal,Hartford - CT,75.78854166666666,69.0
+equal,Winston-Salem - NC,75.86041666666667,70.0
+equal,Knoxville - TN,76.05833333333332,71.0
+equal,Chicago - IL,76.46979166666667,72.0
+equal,Cleveland - OH,77.15416666666667,73.0
+equal,Orlando - FL,77.403125,74.0
+equal,Fort Wayne - IN,77.83020833333333,75.0
+equal,Santa Rosa - CA,78.10000000000001,76.0
+equal,Little Rock - AR,78.18854166666668,77.0
+equal,Greenville - SC,78.33020833333333,78.0
+equal,Canton - OH,78.63437499999999,79.0
+equal,Madison - WI,78.69166666666666,80.0
+equal,Milwaukee - WI,79.27395833333333,81.0
+equal,Des Moines - IA,79.61145833333333,82.0
+equal,Trenton - NJ,79.67708333333333,83.0
+equal,Scranton - PA,79.921875,84.0
+equal,Austin - TX,80.571875,85.0
+equal,Columbia - SC,80.86666666666666,86.0
+equal,Jacksonville - FL,80.93020833333333,87.0
+equal,Atlanta - GA,81.01770833333335,88.0
+equal,Brownsville-Harlingen - TX,81.4375,89.0
+equal,Akron - OH,81.54375,90.0
+equal,Omaha - NE,82.03645833333334,91.0
+equal,San Antonio - TX,82.22708333333334,92.0
+equal,Boston - MA,82.67708333333334,93.0
+equal,Chattanooga - TN,82.76145833333334,94.0
+equal,Jackson - MS,82.803125,95.0
+equal,Provo - UT,82.85104166666666,96.0
+equal,Raleigh - NC,82.93645833333333,97.0
+equal,McAllen - TX,83.190625,98.0
+equal,Denver - CO,83.31979166666666,99.0
+equal,Tucson - AZ,83.325,100.0
+equal,Fort Lauderdale - FL,83.40625,101.0
+equal,Daytona Beach - FL,83.86562500000001,102.0
+equal,Flint - MI,83.90729166666667,103.0
+equal,Portland - OR,83.94166666666666,104.0
+equal,Charleston - SC,84.3875,105.0
+equal,York - PA,84.55729166666666,106.0
+equal,Salt Lake City - UT,84.82604166666667,107.0
+equal,Syracuse - NY,85.359375,108.0
+equal,Tallahassee - FL,85.49375,109.0
+equal,Melbourne - FL,85.53958333333333,110.0
+equal,Killeen - TX,86.36666666666666,111.0
+equal,Montgomery - AL,86.821875,112.0
+equal,Birmingham - AL,86.86666666666667,113.0
+equal,Saint Louis - MO,86.88125,114.0
+equal,Baltimore - MD,86.903125,115.0
+equal,Lakeland - FL,87.07916666666667,116.0
+equal,Toledo - OH,87.353125,117.0
+equal,Nashville - TN,87.44895833333332,118.0
+equal,Albuquerque - NM,87.75625,119.0
+equal,Beaumont - TX,88.44375,120.0
+equal,New Haven - CT,88.54270833333334,121.0
+equal,Mobile - AL,88.55208333333334,122.0
+equal,Louisville - KY,88.725,123.0
+equal,Fort Myers - FL,89.47083333333333,124.0
+equal,Los Angeles - CA,89.49583333333334,125.0
+equal,Philadelphia - PA,89.71979166666667,126.0
+equal,Baton Rouge - LA,91.15625,127.0
+equal,Ocala - FL,91.29583333333333,128.0
+equal,Greensboro - NC,92.884375,129.0
+equal,Dayton - OH,93.18333333333334,130.0
+equal,Pensacola - FL,93.40416666666667,131.0
+equal,Colorado Springs - CO,93.83645833333334,132.0
+equal,Savannah - GA,93.99270833333334,133.0
+equal,Durham - NC,94.56666666666666,134.0
+equal,Corpus Christi - TX,95.18333333333334,135.0
+equal,Augusta - GA,95.21041666666666,136.0
+equal,Charlotte - NC,95.46354166666667,137.0
+equal,Shreveport - LA,95.625,138.0
+equal,Sarasota - FL,96.44270833333334,139.0
+equal,Minneapolis - MN,97.60729166666667,140.0
+equal,Washington - DC,98.84270833333333,141.0
+equal,Asheville - NC,99.88645833333334,142.0
+equal,Lafayette - LA,100.22291666666668,143.0
+equal,Tampa - FL,100.57916666666667,144.0
+equal,Ogden - UT,101.91458333333334,145.0
+equal,Huntsville - AL,102.49583333333334,146.0
+equal,Northern New Jersey - NJ,103.52083333333334,147.0
+equal,Pittsburgh - PA,111.83749999999999,148.0
+equal,Stamford - CT,116.17604166666666,149.0
+equal,Poughkeepsie - NY,,
+drop_effective_rent,Las Vegas - NV,18.944444444444443,1.0
+drop_effective_rent,Inland Empire - CA,24.6,2.0
+drop_effective_rent,Fresno - CA,26.22222222222222,3.0
+drop_effective_rent,Stockton - CA,30.177777777777777,4.0
+drop_effective_rent,Reno - NV,33.75555555555556,5.0
+drop_effective_rent,Sacramento - CA,35.36666666666667,6.0
+drop_effective_rent,Indianapolis - IN,35.91111111111111,7.0
+drop_effective_rent,Modesto - CA,38.644444444444446,8.0
+drop_effective_rent,Phoenix - AZ,39.166666666666664,9.0
+drop_effective_rent,Dallas-Fort Worth - TX,39.41111111111111,10.0
+drop_effective_rent,Salem - OR,40.41111111111111,11.0
+drop_effective_rent,Houston - TX,41.36666666666667,12.0
+drop_effective_rent,Lexington - KY,41.72222222222222,13.0
+drop_effective_rent,Salinas - CA,43.488888888888894,14.0
+drop_effective_rent,Boise - ID,44.36666666666666,15.0
+drop_effective_rent,Myrtle Beach - SC,44.56666666666666,16.0
+drop_effective_rent,Raleigh - NC,44.58888888888889,17.0
+drop_effective_rent,Columbia - SC,44.71111111111111,18.0
+drop_effective_rent,Springfield - MA,44.82222222222222,19.0
+drop_effective_rent,Oklahoma City - OK,44.86666666666667,20.0
+drop_effective_rent,Orlando - FL,45.166666666666664,21.0
+drop_effective_rent,Bakersfield - CA,45.86666666666667,22.0
+drop_effective_rent,Jacksonville - FL,45.98888888888889,23.0
+drop_effective_rent,Spokane - WA,46.011111111111106,24.0
+drop_effective_rent,Palm Beach - FL,46.733333333333334,25.0
+drop_effective_rent,Tulsa - OK,46.91111111111111,26.0
+drop_effective_rent,Winston-Salem - NC,47.77777777777778,27.0
+drop_effective_rent,Springfield - MO,47.8,28.0
+drop_effective_rent,Manchester - NH,48.333333333333336,29.0
+drop_effective_rent,Visalia - CA,48.355555555555554,30.0
+drop_effective_rent,Harrisburg - PA,48.43333333333334,31.0
+drop_effective_rent,Vallejo-Fairfield - CA,48.7,32.0
+drop_effective_rent,San Antonio - TX,49.02222222222222,33.0
+drop_effective_rent,Atlanta - GA,49.65555555555555,34.0
+drop_effective_rent,Memphis - TN,49.96666666666667,35.0
+drop_effective_rent,Columbus - OH,50.18888888888889,36.0
+drop_effective_rent,El Paso - TX,50.22222222222222,37.0
+drop_effective_rent,Port St. Lucie - FL,50.34444444444444,38.0
+drop_effective_rent,Austin - TX,51.099999999999994,39.0
+drop_effective_rent,Anchorage - AK,51.266666666666666,40.0
+drop_effective_rent,Honolulu - HI,51.67777777777778,41.0
+drop_effective_rent,Cincinnati - OH,51.800000000000004,42.0
+drop_effective_rent,Santa Barbara - CA,51.91111111111111,43.0
+drop_effective_rent,Worcester - MA,52.099999999999994,44.0
+drop_effective_rent,Orange County - CA,53.08888888888889,45.0
+drop_effective_rent,Greenville - SC,53.32222222222222,46.0
+drop_effective_rent,Richmond - VA,53.477777777777774,47.0
+drop_effective_rent,Lansing - MI,53.58888888888889,48.0
+drop_effective_rent,Des Moines - IA,53.65555555555555,49.0
+drop_effective_rent,Northwest Arkansas - AR,53.95555555555555,50.0
+drop_effective_rent,East Bay - CA,54.02222222222222,51.0
+drop_effective_rent,Seattle - WA,54.25555555555556,52.0
+drop_effective_rent,Tucson - AZ,54.8,53.0
+drop_effective_rent,Knoxville - TN,54.82222222222222,54.0
+drop_effective_rent,Portland - ME,55.2,55.0
+drop_effective_rent,Charleston - SC,55.266666666666666,56.0
+drop_effective_rent,Fayetteville - NC,55.28888888888889,57.0
+drop_effective_rent,Detroit - MI,55.49999999999999,58.0
+drop_effective_rent,Reading - PA,55.733333333333334,59.0
+drop_effective_rent,Montgomery - AL,55.83333333333333,60.0
+drop_effective_rent,Tallahassee - FL,55.93333333333334,61.0
+drop_effective_rent,Ventura - CA,56.3,62.0
+drop_effective_rent,Lakeland - FL,56.71111111111111,63.0
+drop_effective_rent,Grand Rapids - MI,56.955555555555556,64.0
+drop_effective_rent,Norfolk - VA,56.96666666666667,65.0
+drop_effective_rent,Kansas City - MO,57.53333333333333,66.0
+drop_effective_rent,Killeen - TX,57.644444444444446,67.0
+drop_effective_rent,Provo - UT,58.34444444444445,68.0
+drop_effective_rent,Gulfport-Biloxi-Pascagoula - MS,58.43333333333333,69.0
+drop_effective_rent,Lehigh Valley - PA,58.888888888888886,70.0
+drop_effective_rent,Salt Lake City - UT,60.277777777777786,71.0
+drop_effective_rent,San Diego - CA,60.37777777777778,72.0
+drop_effective_rent,Little Rock - AR,60.67777777777778,73.0
+drop_effective_rent,Fort Wayne - IN,60.78888888888888,74.0
+drop_effective_rent,Naples - FL,60.78888888888889,75.0
+drop_effective_rent,Miami - FL,60.92222222222223,76.0
+drop_effective_rent,Charlotte - NC,61.34444444444444,77.0
+drop_effective_rent,Salisbury - MD,61.44444444444444,78.0
+drop_effective_rent,Youngstown - OH,62.099999999999994,79.0
+drop_effective_rent,Albuquerque - NM,62.13333333333334,80.0
+drop_effective_rent,Daytona Beach - FL,62.633333333333326,81.0
+drop_effective_rent,Greensboro - NC,63.233333333333334,82.0
+drop_effective_rent,McAllen - TX,63.69999999999999,83.0
+drop_effective_rent,Providence - RI,64.04444444444444,84.0
+drop_effective_rent,Birmingham - AL,64.04444444444445,85.0
+drop_effective_rent,Denver - CO,64.21111111111111,86.0
+drop_effective_rent,Wichita - KS,64.77777777777779,87.0
+drop_effective_rent,Tampa - FL,65.11111111111111,88.0
+drop_effective_rent,Canton - OH,65.3,89.0
+drop_effective_rent,Portland - OR,65.84444444444445,90.0
+drop_effective_rent,Melbourne - FL,66.08888888888889,91.0
+drop_effective_rent,Ogden - UT,66.15555555555555,92.0
+drop_effective_rent,Chattanooga - TN,66.18888888888888,93.0
+drop_effective_rent,Nashville - TN,66.1888888888889,94.0
+drop_effective_rent,Lancaster - PA,66.36666666666666,95.0
+drop_effective_rent,San Francisco - CA,66.5111111111111,96.0
+drop_effective_rent,New Orleans - LA,66.52222222222221,97.0
+drop_effective_rent,San Jose - CA,66.56666666666668,98.0
+drop_effective_rent,Pensacola - FL,66.57777777777777,99.0
+drop_effective_rent,Scranton - PA,66.7,100.0
+drop_effective_rent,Fort Lauderdale - FL,66.80000000000001,101.0
+drop_effective_rent,Ocala - FL,66.95555555555555,102.0
+drop_effective_rent,Trenton - NJ,67.28888888888889,103.0
+drop_effective_rent,Durham - NC,67.51111111111112,104.0
+drop_effective_rent,Colorado Springs - CO,67.98888888888888,105.0
+drop_effective_rent,Akron - OH,68.26666666666667,106.0
+drop_effective_rent,Louisville - KY,68.4,107.0
+drop_effective_rent,Madison - WI,68.57777777777778,108.0
+drop_effective_rent,York - PA,68.6111111111111,109.0
+drop_effective_rent,Mobile - AL,68.88888888888889,110.0
+drop_effective_rent,Omaha - NE,68.98888888888888,111.0
+drop_effective_rent,Savannah - GA,68.9888888888889,112.0
+drop_effective_rent,Sarasota - FL,70.38888888888889,113.0
+drop_effective_rent,Baltimore - MD,70.43333333333334,114.0
+drop_effective_rent,New York - NY,70.78888888888889,115.0
+drop_effective_rent,Augusta - GA,71.04444444444445,116.0
+drop_effective_rent,Fort Myers - FL,71.28888888888889,117.0
+drop_effective_rent,Long Island - NY,71.45555555555555,118.0
+drop_effective_rent,Dayton - OH,71.82222222222222,119.0
+drop_effective_rent,Albany - NY,71.97777777777777,120.0
+drop_effective_rent,Asheville - NC,72.78888888888889,121.0
+drop_effective_rent,Huntsville - AL,72.88888888888889,122.0
+drop_effective_rent,Washington - DC,73.1222222222222,123.0
+drop_effective_rent,Brownsville-Harlingen - TX,73.13333333333333,124.0
+drop_effective_rent,Chicago - IL,73.54444444444444,125.0
+drop_effective_rent,Philadelphia - PA,74.27777777777779,126.0
+drop_effective_rent,Cleveland - OH,74.44444444444444,127.0
+drop_effective_rent,Minneapolis - MN,74.67777777777778,128.0
+drop_effective_rent,Buffalo - NY,75.3,129.0
+drop_effective_rent,Rochester - NY,75.47777777777777,130.0
+drop_effective_rent,Flint - MI,75.6111111111111,131.0
+drop_effective_rent,Santa Rosa - CA,76.2,132.0
+drop_effective_rent,Boston - MA,76.95555555555555,133.0
+drop_effective_rent,Shreveport - LA,77.0,134.0
+drop_effective_rent,Hartford - CT,77.74444444444445,135.0
+drop_effective_rent,Jackson - MS,79.1,136.0
+drop_effective_rent,New Haven - CT,79.25555555555556,137.0
+drop_effective_rent,Baton Rouge - LA,81.0,138.0
+drop_effective_rent,Beaumont - TX,81.19999999999999,139.0
+drop_effective_rent,Northern New Jersey - NJ,81.82222222222222,140.0
+drop_effective_rent,Toledo - OH,82.23333333333333,141.0
+drop_effective_rent,Milwaukee - WI,83.12222222222222,142.0
+drop_effective_rent,Corpus Christi - TX,83.42222222222222,143.0
+drop_effective_rent,Los Angeles - CA,83.48888888888888,144.0
+drop_effective_rent,Saint Louis - MO,83.99999999999999,145.0
+drop_effective_rent,Lafayette - LA,84.24444444444444,146.0
+drop_effective_rent,Syracuse - NY,87.10000000000001,147.0
+drop_effective_rent,Pittsburgh - PA,93.6,148.0
+drop_effective_rent,Stamford - CT,100.94444444444443,149.0
+drop_effective_rent,Poughkeepsie - NY,,
+double_employment,Inland Empire - CA,19.280952380952385,1.0
+double_employment,Las Vegas - NV,24.611904761904768,2.0
+double_employment,Stockton - CA,26.96190476190477,3.0
+double_employment,Fresno - CA,27.04761904761905,4.0
+double_employment,Phoenix - AZ,32.62619047619049,5.0
+double_employment,Indianapolis - IN,32.87619047619048,6.0
+double_employment,Sacramento - CA,32.91666666666667,7.0
+double_employment,Modesto - CA,34.54285714285715,8.0
+double_employment,Salem - OR,36.145238095238106,9.0
+double_employment,Palm Beach - FL,38.07619047619048,10.0
+double_employment,Reno - NV,38.247619047619054,11.0
+double_employment,Salinas - CA,38.49523809523811,12.0
+double_employment,Bakersfield - CA,39.47142857142858,13.0
+double_employment,Visalia - CA,40.40952380952382,14.0
+double_employment,Port St. Lucie - FL,43.02619047619049,15.0
+double_employment,Springfield - MA,44.104761904761915,16.0
+double_employment,Boise - ID,44.32619047619049,17.0
+double_employment,Richmond - VA,44.55000000000001,18.0
+double_employment,Dallas-Fort Worth - TX,44.76904761904763,19.0
+double_employment,East Bay - CA,45.64285714285715,20.0
+double_employment,Columbus - OH,45.91190476190477,21.0
+double_employment,Honolulu - HI,46.47380952380953,22.0
+double_employment,Vallejo-Fairfield - CA,46.678571428571445,23.0
+double_employment,Miami - FL,47.77380952380953,24.0
+double_employment,Myrtle Beach - SC,47.80714285714287,25.0
+double_employment,Spokane - WA,48.19285714285715,26.0
+double_employment,Seattle - WA,48.807142857142864,27.0
+double_employment,Manchester - NH,48.97142857142859,28.0
+double_employment,Springfield - MO,49.35714285714287,29.0
+double_employment,San Francisco - CA,49.81428571428573,30.0
+double_employment,Memphis - TN,49.926190476190484,31.0
+double_employment,Harrisburg - PA,50.09761904761906,32.0
+double_employment,Orlando - FL,50.1357142857143,33.0
+double_employment,San Jose - CA,50.297619047619065,34.0
+double_employment,Northwest Arkansas - AR,50.3809523809524,35.0
+double_employment,Cincinnati - OH,50.461904761904776,36.0
+double_employment,Worcester - MA,50.85952380952382,37.0
+double_employment,Kansas City - MO,51.20476190476191,38.0
+double_employment,Portland - ME,51.24761904761907,39.0
+double_employment,Norfolk - VA,51.478571428571435,40.0
+double_employment,Lehigh Valley - PA,51.50476190476192,41.0
+double_employment,Lexington - KY,51.57380952380954,42.0
+double_employment,Reading - PA,51.71428571428573,43.0
+double_employment,Salisbury - MD,52.05714285714287,44.0
+double_employment,Santa Barbara - CA,52.75238095238096,45.0
+double_employment,Ventura - CA,52.783333333333346,46.0
+double_employment,Columbia - SC,52.93333333333335,47.0
+double_employment,Charleston - SC,53.05714285714288,48.0
+double_employment,Raleigh - NC,53.18333333333335,49.0
+double_employment,Greenville - SC,53.664285714285725,50.0
+double_employment,Naples - FL,54.32619047619049,51.0
+double_employment,Lansing - MI,54.33095238095239,52.0
+double_employment,Atlanta - GA,54.40238095238097,53.0
+double_employment,Houston - TX,54.430952380952405,54.0
+double_employment,Tulsa - OK,54.44285714285716,55.0
+double_employment,Orange County - CA,54.704761904761924,56.0
+double_employment,Grand Rapids - MI,55.309523809523824,57.0
+double_employment,Lakeland - FL,55.54285714285716,58.0
+double_employment,El Paso - TX,56.00952380952383,59.0
+double_employment,Jacksonville - FL,56.05000000000001,60.0
+double_employment,Knoxville - TN,56.171428571428585,61.0
+double_employment,Des Moines - IA,56.21666666666668,62.0
+double_employment,Fayetteville - NC,56.88095238095239,63.0
+double_employment,Lancaster - PA,57.21666666666668,64.0
+double_employment,Daytona Beach - FL,57.34047619047621,65.0
+double_employment,Youngstown - OH,57.36428571428573,66.0
+double_employment,Winston-Salem - NC,57.50952380952382,67.0
+double_employment,Detroit - MI,57.630952380952394,68.0
+double_employment,Austin - TX,57.740476190476215,69.0
+double_employment,Anchorage - AK,57.75714285714287,70.0
+double_employment,San Antonio - TX,58.50476190476192,71.0
+double_employment,Oklahoma City - OK,58.80000000000001,72.0
+double_employment,Gulfport-Biloxi-Pascagoula - MS,59.17380952380954,73.0
+double_employment,Trenton - NJ,59.1952380952381,74.0
+double_employment,Fort Wayne - IN,59.91666666666668,75.0
+double_employment,Tallahassee - FL,60.0857142857143,76.0
+double_employment,Providence - RI,60.461904761904776,77.0
+double_employment,San Diego - CA,61.39047619047621,78.0
+double_employment,Melbourne - FL,61.56190476190478,79.0
+double_employment,York - PA,62.11666666666668,80.0
+double_employment,Madison - WI,62.14761904761907,81.0
+double_employment,Chattanooga - TN,63.073809523809544,82.0
+double_employment,Provo - UT,63.26904761904764,83.0
+double_employment,Albany - NY,64.15238095238097,84.0
+double_employment,Salt Lake City - UT,64.44523809523811,85.0
+double_employment,Little Rock - AR,64.75476190476193,86.0
+double_employment,Fort Lauderdale - FL,65.1809523809524,87.0
+double_employment,Ocala - FL,65.19523809523812,88.0
+double_employment,McAllen - TX,65.77380952380955,89.0
+double_employment,Pensacola - FL,65.83333333333336,90.0
+double_employment,Charlotte - NC,65.8357142857143,91.0
+double_employment,Fort Myers - FL,65.84285714285716,92.0
+double_employment,New York - NY,66.56428571428575,93.0
+double_employment,New Orleans - LA,66.68809523809526,94.0
+double_employment,Montgomery - AL,66.85000000000001,95.0
+double_employment,Denver - CO,67.3261904761905,96.0
+double_employment,Louisville - KY,67.33809523809525,97.0
+double_employment,Cleveland - OH,67.44761904761907,98.0
+double_employment,Brownsville-Harlingen - TX,67.5809523809524,99.0
+double_employment,Long Island - NY,67.58333333333334,100.0
+double_employment,Omaha - NE,67.9404761904762,101.0
+double_employment,Scranton - PA,68.08809523809526,102.0
+double_employment,Rochester - NY,68.36904761904763,103.0
+double_employment,Sarasota - FL,68.38333333333335,104.0
+double_employment,Canton - OH,68.55952380952382,105.0
+double_employment,Wichita - KS,68.62857142857143,106.0
+double_employment,Buffalo - NY,68.70238095238096,107.0
+double_employment,Savannah - GA,68.88333333333335,108.0
+double_employment,Killeen - TX,69.03809523809525,109.0
+double_employment,Tucson - AZ,69.15714285714287,110.0
+double_employment,Chicago - IL,69.51190476190479,111.0
+double_employment,Nashville - TN,69.67857142857146,112.0
+double_employment,Portland - OR,69.7857142857143,113.0
+double_employment,Santa Rosa - CA,69.80476190476193,114.0
+double_employment,Ogden - UT,70.10952380952382,115.0
+double_employment,Boston - MA,70.36190476190478,116.0
+double_employment,Tampa - FL,70.55238095238099,117.0
+double_employment,Huntsville - AL,70.5809523809524,118.0
+double_employment,Durham - NC,70.92380952380955,119.0
+double_employment,Baltimore - MD,70.99285714285716,120.0
+double_employment,Asheville - NC,71.15952380952383,121.0
+double_employment,Hartford - CT,71.31190476190477,122.0
+double_employment,Colorado Springs - CO,71.38809523809526,123.0
+double_employment,Birmingham - AL,71.46190476190478,124.0
+double_employment,Greensboro - NC,71.59761904761908,125.0
+double_employment,Milwaukee - WI,71.77857142857145,126.0
+double_employment,Akron - OH,72.54761904761905,127.0
+double_employment,New Haven - CT,72.58333333333336,128.0
+double_employment,Dayton - OH,73.09047619047621,129.0
+double_employment,Albuquerque - NM,73.60952380952384,130.0
+double_employment,Augusta - GA,74.09047619047621,131.0
+double_employment,Mobile - AL,74.53333333333335,132.0
+double_employment,Flint - MI,75.37857142857145,133.0
+double_employment,Philadelphia - PA,75.91190476190478,134.0
+double_employment,Toledo - OH,76.34523809523812,135.0
+double_employment,Saint Louis - MO,78.5857142857143,136.0
+double_employment,Syracuse - NY,78.70238095238098,137.0
+double_employment,Washington - DC,79.43571428571431,138.0
+double_employment,Minneapolis - MN,80.35476190476193,139.0
+double_employment,Jackson - MS,80.71666666666668,140.0
+double_employment,Northern New Jersey - NJ,83.01904761904764,141.0
+double_employment,Baton Rouge - LA,83.52857142857145,142.0
+double_employment,Los Angeles - CA,85.2857142857143,143.0
+double_employment,Shreveport - LA,85.34285714285717,144.0
+double_employment,Beaumont - TX,85.89523809523811,145.0
+double_employment,Lafayette - LA,87.70000000000002,146.0
+double_employment,Corpus Christi - TX,91.45238095238098,147.0
+double_employment,Pittsburgh - PA,98.2809523809524,148.0
+double_employment,Stamford - CT,102.87380952380954,149.0
+double_employment,Poughkeepsie - NY,,
+inverse_volatility,Las Vegas - NV,32.89384742232395,1.0
+inverse_volatility,Stockton - CA,35.41788403769632,2.0
+inverse_volatility,Inland Empire - CA,36.78822012342438,3.0
+inverse_volatility,Fresno - CA,42.19278204978933,4.0
+inverse_volatility,Reno - NV,45.48918659560418,5.0
+inverse_volatility,Sacramento - CA,46.675548474059966,6.0
+inverse_volatility,Phoenix - AZ,47.552920510069285,7.0
+inverse_volatility,Houston - TX,48.19478452861372,8.0
+inverse_volatility,Dallas-Fort Worth - TX,49.124823105416226,9.0
+inverse_volatility,Indianapolis - IN,49.24780396272595,10.0
+inverse_volatility,Myrtle Beach - SC,51.4782839165674,11.0
+inverse_volatility,Modesto - CA,52.787621579510756,12.0
+inverse_volatility,Salem - OR,53.047666979680926,13.0
+inverse_volatility,Boise - ID,53.743108742890065,14.0
+inverse_volatility,Oklahoma City - OK,56.34036184139251,15.0
+inverse_volatility,Visalia - CA,56.69824687136881,16.0
+inverse_volatility,Salinas - CA,57.52525046191927,17.0
+inverse_volatility,Palm Beach - FL,57.716648586248425,18.0
+inverse_volatility,Austin - TX,57.86408786751379,19.0
+inverse_volatility,Orlando - FL,58.364601765721346,20.0
+inverse_volatility,Bakersfield - CA,58.51016759972208,21.0
+inverse_volatility,Seattle - WA,58.87746090997334,22.0
+inverse_volatility,East Bay - CA,58.99946530544227,23.0
+inverse_volatility,Port St. Lucie - FL,59.13669251538031,24.0
+inverse_volatility,Tulsa - OK,59.37001221412234,25.0
+inverse_volatility,Provo - UT,59.38209851328896,26.0
+inverse_volatility,El Paso - TX,59.953892656440786,27.0
+inverse_volatility,San Antonio - TX,60.15557440973292,28.0
+inverse_volatility,Vallejo-Fairfield - CA,60.20315158343494,29.0
+inverse_volatility,Northwest Arkansas - AR,60.37723936845226,30.0
+inverse_volatility,Raleigh - NC,60.536086091689164,31.0
+inverse_volatility,Lexington - KY,61.66936752347084,32.0
+inverse_volatility,Jacksonville - FL,62.32574450782166,33.0
+inverse_volatility,Atlanta - GA,63.865781167131615,34.0
+inverse_volatility,Greenville - SC,64.6027638502838,35.0
+inverse_volatility,Naples - FL,64.75148761101453,36.0
+inverse_volatility,Des Moines - IA,64.84606131883362,37.0
+inverse_volatility,McAllen - TX,65.19748174755951,38.0
+inverse_volatility,Manchester - NH,65.34430104142238,39.0
+inverse_volatility,Springfield - MO,65.50015804807319,40.0
+inverse_volatility,Killeen - TX,66.53311259131819,41.0
+inverse_volatility,Lakeland - FL,66.79789226343262,42.0
+inverse_volatility,Spokane - WA,66.86474666313316,43.0
+inverse_volatility,Columbus - OH,66.91393777916525,44.0
+inverse_volatility,Charleston - SC,67.52910727760938,45.0
+inverse_volatility,Columbia - SC,68.12869543235097,46.0
+inverse_volatility,Harrisburg - PA,68.15032010847604,47.0
+inverse_volatility,Orange County - CA,68.31294555720022,48.0
+inverse_volatility,Richmond - VA,68.59075706860607,49.0
+inverse_volatility,Winston-Salem - NC,68.7835274143591,50.0
+inverse_volatility,Little Rock - AR,69.37413031938809,51.0
+inverse_volatility,Portland - ME,70.18557347439003,52.0
+inverse_volatility,Santa Barbara - CA,70.19273343211827,53.0
+inverse_volatility,Honolulu - HI,70.23403314455824,54.0
+inverse_volatility,Nashville - TN,71.14634924762589,55.0
+inverse_volatility,Fort Myers - FL,71.20782431240177,56.0
+inverse_volatility,Grand Rapids - MI,71.4934427194384,57.0
+inverse_volatility,Memphis - TN,71.50193894021879,58.0
+inverse_volatility,Knoxville - TN,72.55496959328303,59.0
+inverse_volatility,Tucson - AZ,72.61622186761369,60.0
+inverse_volatility,Salt Lake City - UT,72.74561530419585,61.0
+inverse_volatility,Lansing - MI,72.9473450997084,62.0
+inverse_volatility,Reading - PA,73.10670446815625,63.0
+inverse_volatility,Springfield - MA,73.19281711556924,64.0
+inverse_volatility,Daytona Beach - FL,73.26840432063051,65.0
+inverse_volatility,Anchorage - AK,73.48242951601193,66.0
+inverse_volatility,Charlotte - NC,74.12686879831024,67.0
+inverse_volatility,Cincinnati - OH,74.6607118986642,68.0
+inverse_volatility,Melbourne - FL,74.7478267220501,69.0
+inverse_volatility,San Francisco - CA,74.77338271838676,70.0
+inverse_volatility,Salisbury - MD,74.85460942104824,71.0
+inverse_volatility,Denver - CO,75.15942669316223,72.0
+inverse_volatility,Kansas City - MO,75.2056436152249,73.0
+inverse_volatility,San Jose - CA,75.31615726134991,74.0
+inverse_volatility,Miami - FL,75.52958396237747,75.0
+inverse_volatility,Worcester - MA,75.86557700871994,76.0
+inverse_volatility,Ocala - FL,76.15322207882555,77.0
+inverse_volatility,Lancaster - PA,76.50977036645148,78.0
+inverse_volatility,Portland - OR,76.72401997043484,79.0
+inverse_volatility,San Diego - CA,76.85426675956711,80.0
+inverse_volatility,Tallahassee - FL,77.39755444311709,81.0
+inverse_volatility,Fort Wayne - IN,77.69707557470991,82.0
+inverse_volatility,Fayetteville - NC,77.72889622822737,83.0
+inverse_volatility,Colorado Springs - CO,77.85610995318581,84.0
+inverse_volatility,Omaha - NE,78.60389925234236,85.0
+inverse_volatility,Gulfport-Biloxi-Pascagoula - MS,78.74954006199732,86.0
+inverse_volatility,Chattanooga - TN,78.88183268775904,87.0
+inverse_volatility,Madison - WI,79.07179532997009,88.0
+inverse_volatility,Norfolk - VA,79.20154473107516,89.0
+inverse_volatility,Sarasota - FL,79.21587775041974,90.0
+inverse_volatility,Detroit - MI,79.50678701026573,91.0
+inverse_volatility,Wichita - KS,79.79758986486195,92.0
+inverse_volatility,Ogden - UT,79.87471849420403,93.0
+inverse_volatility,New York - NY,80.0125373096496,94.0
+inverse_volatility,Durham - NC,80.09289110157653,95.0
+inverse_volatility,Providence - RI,80.38928535855464,96.0
+inverse_volatility,Tampa - FL,80.57704750975073,97.0
+inverse_volatility,Ventura - CA,80.87861586734354,98.0
+inverse_volatility,Brownsville-Harlingen - TX,82.0628589034024,99.0
+inverse_volatility,Montgomery - AL,82.27493294239369,100.0
+inverse_volatility,Birmingham - AL,82.34442974308514,101.0
+inverse_volatility,Huntsville - AL,82.96046990612636,102.0
+inverse_volatility,Lehigh Valley - PA,83.22492534586284,103.0
+inverse_volatility,Savannah - GA,83.73971782059506,104.0
+inverse_volatility,Louisville - KY,83.85535234173827,105.0
+inverse_volatility,Fort Lauderdale - FL,83.98017760858464,106.0
+inverse_volatility,Youngstown - OH,84.33897814777315,107.0
+inverse_volatility,New Orleans - LA,84.7107649884303,108.0
+inverse_volatility,Albuquerque - NM,85.10938630224967,109.0
+inverse_volatility,Scranton - PA,85.68495609669486,110.0
+inverse_volatility,Mobile - AL,86.22096052941808,111.0
+inverse_volatility,Pensacola - FL,86.2345729444103,112.0
+inverse_volatility,Albany - NY,86.29118547321245,113.0
+inverse_volatility,Trenton - NJ,87.07826458802998,114.0
+inverse_volatility,Washington - DC,87.54541814754663,115.0
+inverse_volatility,Long Island - NY,87.64216803832477,116.0
+inverse_volatility,Minneapolis - MN,88.31935613761598,117.0
+inverse_volatility,Augusta - GA,88.37735664358172,118.0
+inverse_volatility,Rochester - NY,88.7977135373765,119.0
+inverse_volatility,Asheville - NC,88.98534368222897,120.0
+inverse_volatility,Baton Rouge - LA,89.95706049072403,121.0
+inverse_volatility,Greensboro - NC,90.40920709717483,122.0
+inverse_volatility,Boston - MA,90.4222375296629,123.0
+inverse_volatility,Baltimore - MD,90.58044805900886,124.0
+inverse_volatility,Canton - OH,90.60334551406858,125.0
+inverse_volatility,York - PA,91.61736647428691,126.0
+inverse_volatility,Akron - OH,91.79050249386152,127.0
+inverse_volatility,Santa Rosa - CA,92.80234331605305,128.0
+inverse_volatility,Philadelphia - PA,93.13798898970524,129.0
+inverse_volatility,Hartford - CT,93.42328370124594,130.0
+inverse_volatility,Jackson - MS,94.2045574945376,131.0
+inverse_volatility,Buffalo - NY,94.34195158084474,132.0
+inverse_volatility,Beaumont - TX,95.09643677327136,133.0
+inverse_volatility,Cleveland - OH,95.41789511955866,134.0
+inverse_volatility,Chicago - IL,95.49424610219361,135.0
+inverse_volatility,Corpus Christi - TX,95.84345482703111,136.0
+inverse_volatility,Los Angeles - CA,96.70081248628897,137.0
+inverse_volatility,Toledo - OH,96.79540424902507,138.0
+inverse_volatility,Lafayette - LA,97.95229848126101,139.0
+inverse_volatility,Flint - MI,99.52649304574936,140.0
+inverse_volatility,Shreveport - LA,99.84506891494368,141.0
+inverse_volatility,New Haven - CT,100.26346446383454,142.0
+inverse_volatility,Dayton - OH,100.48976585747707,143.0
+inverse_volatility,Saint Louis - MO,100.49971177306962,144.0
+inverse_volatility,Northern New Jersey - NJ,102.13680160775964,145.0
+inverse_volatility,Milwaukee - WI,102.25499779676997,146.0
+inverse_volatility,Syracuse - NY,102.3335225050952,147.0
+inverse_volatility,Pittsburgh - PA,115.77724617082096,148.0
+inverse_volatility,Stamford - CT,118.87502357741946,149.0
+inverse_volatility,Poughkeepsie - NY,,

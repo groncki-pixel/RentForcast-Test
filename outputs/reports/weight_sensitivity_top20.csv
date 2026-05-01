@@ -1,0 +1,21 @@
+BaselineTop20Pos,Market,baseline,double_employment,drop_effective_rent,equal,inverse_volatility
+1,Inland Empire - CA,1,1,2,3,3
+2,Fresno - CA,2,4,3,1,4
+3,Las Vegas - NV,3,2,1,7,1
+4,Stockton - CA,4,3,4,2,2
+5,Indianapolis - IN,5,6,7,9,10
+6,Sacramento - CA,6,7,6,5,6
+7,Modesto - CA,7,8,8,6,12
+8,Salem - OR,8,9,11,11,13
+9,Phoenix - AZ,9,5,9,17,7
+10,Springfield - MA,10,16,19,22,64
+11,Salinas - CA,11,12,14,4,17
+12,Bakersfield - CA,12,13,22,13,21
+13,Reno - NV,13,11,5,15,5
+14,Palm Beach - FL,14,10,25,18,18
+15,Honolulu - HI,15,22,41,10,54
+16,East Bay - CA,16,20,51,8,23
+17,Memphis - TN,17,31,35,24,58
+18,Richmond - VA,18,18,47,28,49
+19,Visalia - CA,19,14,30,12,16
+20,Manchester - NH,20,28,29,21,39
